@@ -7,14 +7,18 @@ md_path = 'cv.md'
 
 with open(md_path, 'r') as inf:
     html = markdown2.markdown(inf.read())
-soup = BeautifulSoup(html)
+soup = BeautifulSoup(html, features='lxml')
 
 class SectionSoup(BeautifulSoup):
     def new_section(self, parent=None, css_class='', title=None, content=None):
+        if isinstance(title, str):
+            css_id = title.replace(' ', '_')
+        else:
+            css_id = title.string.replace(' ', '_')
         if parent is None:
             parent = self
             warnings.warn('Parent tag is not specified. The section will be added to the end of the document')
-        section_tag = self.new_tag('div', attrs={'class' : css_class})
+        section_tag = self.new_tag('div', attrs={'class' : css_class, 'id' : css_id})
         title_tag = self.new_tag('div', attrs = {'class' : css_class + 'Title'})
         content_tag = self.new_tag('div', attrs = {'class' : css_class + 'Content'})
         parent.append(section_tag)
@@ -26,7 +30,7 @@ class SectionSoup(BeautifulSoup):
         return content_tag
 
 with open('templates/cv.html', 'r') as inf:
-    template = SectionSoup(inf.read())
+    template = SectionSoup(inf.read(), features='lxml')
 
 name = template.find(id = 'name')
 name.append(soup.h1)
@@ -37,12 +41,6 @@ template.title.smooth()
 
 meta_description = template.find(attrs ={'name' : 'description'})
 meta_description['content'] = name_str + meta_description['content']
-
-contacts = template.find(id = 'contacts')
-first_p = soup.p.extract()
-for line in first_p.string.split('\n'):
-    title, content = line.split(':')
-    template.new_section(parent=contacts, css_class='contact', title=title, content=content)
 
 main_tag = template.find(id = 'main')
 parent_tag = main_tag

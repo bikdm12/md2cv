@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #dedede;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10pt;
+	font-weight: 400;
+	line-height: 2;
+}
+
+h2 {
+	color: #191970;
+	font-size: 12pt;
+	font-weight: 600;
+	line-height: 1;
+}
+
+strong, h3 {
+	font-size: 10pt;
+	font-weight: 600;
+}
+
+a {
+	color: #148F77;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+i {
+	font-size: 12pt;
+	vertical-align: middle;
+}
+
+#cv {
+	width: 21cm;
+	height: 29.7cm;
+	background-color: white;
+	margin: auto;
+	padding: 2cm;
+	position: relative;
+	display: grid;
+    grid-template-columns: 7cm 1fr;
+	grid-template-rows: auto 1fr;
+	column-gap: 1cm;
+	row-gap: 1cm;
+	text-align: justify;
+}
+
+.Title  {
+	display: none;
+}
+
+.Section {
+	padding-top: 0.5cm;
+}
+
+.SectionTitle {
+	padding-bottom: 0.25cm;
+}
+
+#HEADER {
+	grid-row: 1;
+}
+
+#PHOTO {
+	grid-column: 1;
+	display: flex;
+}
+
+#PHOTO .Content {
+	width: 100%;
+	background-image: url('cv-photo.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#PERSONAL {
+	grid-column: 2;
+}
+
+#PERSONAL .Section {
+	padding: 0cm;
+}
+
+#PERSONAL .SectionTitle {
+	display: none;
+}
+
+#NAME .SectionContent {
+	color: #191970;
+	font-size: 36pt;
+	font-weight: 600;
+	line-height: 1;
+	text-transform: uppercase;
+	text-indent: -4px; /* Adjust for kerning */
+}
+
+#CONTACTS .SectionContent{
+	display: flex;        /* Make the container a flex container */
+	flex-wrap: wrap;
+	row-gap: 10pt;
+	margin-top: 1cm;
+	width: 100%;
+}
+
+#CONTACTS .SectionContent p {
+	width: 50%;             /* Each <p> takes up 48% of the container width */
+	line-height: 1;
+}
+
+#LEFT {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+#SKILLS, #SUMMARY {
+	padding-top: 0cm;
+}
+
+#RIGHT {
+	grid-column: 2;
+	grid-row: 2;
+}
+
+#SUMMARY .SectionContent {
+	text-indent: 2em;
+}
+
+#POSITION {
+	font-weight: 600;
+	display: flex;
+}
+
+#POSITION .SubsectionTitle, #DESCRIPTION .SubsectionTitle {
+	display: none;
+}
+
+#POSITION .SubsectionContent {
+	display: flex;
+	width: 100%;
+}
+
+#POSITION .SubsectionContent p:first-child {
+	flex: 4.5;
+	text-align: left;
+}
+  
+#POSITION .SubsectionContent p:last-child {
+	flex: 1;
+}

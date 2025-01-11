@@ -1,183 +1,224 @@
-# Dmitry Bikmetov
+# PHOTO
 
-![Photo](cv-photo.png)
+# PERSONAL
+
+## NAME
+
+Dmitry Bikmetov
 
 ## CONTACTS
 
-### Contacts1
+<i class="fa-solid fa-envelope-square"></i> **e-mail:** [bikdm12@gmail.com](mailto:bikdm12@gmail.com "mailto:bikdm12@gmail.com")
 
-**e-mail:**<bikdm12@gmail.com>
+<i class="fa-brands fa-github-square"></i> **GitHub:** [bikdm12](https://github.com/bikdm12 "Github: bikdm12")
 
-**ResearchGate:**[link](https://www.researchgate.net/profile/Dmitry_Bikmetov "ReasearchGate: Dmitry Bikmetov")
+<i class="fa-solid fa-phone-square"></i> **phone:** [+7 (965) 297-58-24](tel:+79652975824 "tel:+79652975824")
 
-**GitHub:**[bikdm12](https://github.com/bikdm12 "Github: Dmitry Bikmetov")
+<i class="ai ai-researchgate-square"></i> **ResearchGate:** [Dmitry-Bikmetov](https://www.researchgate.net/profile/Dmitry-Bikmetov "ReasearchGate: Dmitry-Bikmetov")
 
-### Contacts2
+# LEFT
 
-**address:**41-1 Ostrovityanova St. Apt. 230,
+## TECHNICAL SKILLS
 
-117342, Moscow, Russia
+### Bioinformatics
 
-**phone:**+7 (965) 297-58-24
+Sequence analysis (alignments, databases, functional annotation …), phylogenetics, comparative genomics, biosynthetic gene cluster prediction and annotation
+
+### NGS analysis
+
+RNA-Seq, Ribo-Seq (ribosome profiling), 16S
+
+### Statistics
+
+Exploratory analysis, hypothesis testing, regression, clustering, networks, compositional data analysis
+
+### Programming
+
+Python (Biopython, NumPy, SciPy, Pandas, Matplotlib …), R, Bash
+
+### Development utilities
+
+Linux, Git, Docker, Conda, Jupyter
+
+### Molecular biology
+
+Cloning, protein purification, Western-blotting,*in vitro* transcription/translation, cell lines
+
+## LANGUAGES
+
+Russian (native)
+
+English (fluent)
+
+## AWARDS
+
+### POSITION
+
+Olympiad
+
+2019
+
+### DESCRIPTION
+
+Russian National Student Olympiad «I am a professional» awardee
+
+### POSITION
+
+Travel grant
+
+2016
+
+### DESCRIPTION
+
+Summer school "Biomembranes & Cellular Microcompartments", Osnabrück University, Germany
+
+Travel grant by the Faculty of Bioengineering and Bioinformatics for the best fourth year students
+
+# RIGHT
 
 ## EDUCATION
 
-### 2012 - 2018
+### POSITION
 
-#### Specialist in bioengineering and bioinformatics (equivalent to M.Sc.)
+Ph.D. in mathematical biology and bioinformatics
+
+2025 (planned)
+
+### DESCRIPTION
 
 Faculty of Bioengineering and Bioinformatics
 
 Lomonosov Moscow State University, Moscow, Russia
 
-### 2010 - 2012
+### POSITION
 
-#### High school
+Specialist in bioengineering and bioinformatics (equivalent to M.Sc.)
 
-Advanced Educational Scientific Center – Kolmogorov’s boarding school
+2018
+
+### DESCRIPTION
+
+Faculty of Bioengineering and Bioinformatics
 
 Lomonosov Moscow State University, Moscow, Russia
 
 ## RESEARCH EXPERIENCE
 
-### 2018 - present
+### POSITION
 
-#### Junior research fellow  
+Junior research fellow
 
-Center for Precision Genome Editing and Genetic Technologies for Biomedicine, Institute of
-Gene Biology, Moscow, Russia
+2018 - present
 
-Skolkovo Institute of Science and Technology, Moscow, Russia
+### DESCRIPTION  
 
-Research group of prof. Konstantin Severinov
+Institute of Gene Biology, Russian Academy of Sciences, Moscow, Russia
 
-Characterization of novel bacterial toxin-antitoxin systems.
-Mining of bacterial genomes for new natural products with antibiotic activity
+Center for Precision Genome Editing and Genetic Technologies for Biomedicine
 
-Supervisor: Prof. Konstantin Severinov
+"Characterization of novel bacterial toxin-antitoxin systems.
+Mining of bacterial genomes for new natural products with antibiotic activity"
 
-### 2015 - 2018
+**Supervisor:** prof. Konstantin Severinov
 
-#### Specialist's thesis
+### POSITION
+
+Specialist's thesis
+
+2015 - 2018
+
+### DESCRIPTION
 
 A.N. Belozersky Institute of Physico-Chemical Biology, Moscow, Russia
 
 Laboratory of Protein Synthesis Regulation
 
-Role of proteins interacting with DAP5 (eIF4G2) mRNA in translation regulation
+"Role of proteins interacting with DAP5 (eIF4G2) mRNA in translation regulation"
 
-Supervisor: Dr. Ilya Terenin
+**Supervisor:** Dr. Ilya Terenin
 
-### 2014 - 2015
+### POSITION
 
-#### Undergraduate research project
+Undergraduate research project
 
-Engelhardt Institute of Molecular Biology, Moscow, Russia.
+2014 - 2015
+
+### DESCRIPTION
+
+Engelhardt Institute of Molecular Biology, Moscow, Russia
 
 Laboratory of Cell Proliferation
 
-Influence of mTOR inhibitor torin-2 on cell growth and p73 protein level
+"Influence of mTOR inhibitor torin-2 on cell growth and p73 protein level"
 
-Supervisors: Alexandra Dalina, Prof. Peter Chumakov
+**Supervisors:** Alexandra Dalina, Prof. Peter Chumakov
 
-### 2013 - 2014
+### POSITION
 
-#### Undergraduate research project
+Undergraduate research project
 
-A.N. Belozersky Institute of Physico-Chemical Biology, Moscow, Russia.
+2013 - 2014
+
+### DESCRIPTION
+
+A.N. Belozersky Institute of Physico-Chemical Biology, Moscow, Russia
 
 Laboratory of Membrane Biophysics
-Properties of SkQ hydrophobic cations as a transmembrane electron carrier
 
-Supervisors: Dr. Tatyana Rokitskaya, Dr. Yuri Antonenko
+"Properties of SkQ hydrophobic cations as a transmembrane electron carrier"
+
+**Supervisors:** Dr. Tatyana Rokitskaya, Dr. Yuri Antonenko
+
+# CENTER
 
 ## PUBLICATIONS
 
-1. Ovchinnikov, S. V,**Bikmetov, D.,**Livenskyi, A., Serebryakova, M., Wilcox, B., Mangano, K., … Dubiley, S. (2020). Mechanism of translation inhibition by type II GNAT toxin AtaT2. *Nucleic Acids Research, 48(15), 8617–8625.* <https://doi.org/10.1093/nar/gkaa551>
-2. Travin, D. Y.,**Bikmetov, D.,**& Severinov, K. (2020). Translation-Targeting RiPPs and Where to Find Them. *Frontiers in Genetics, 11, 226.* <https://doi.org/10.3389/fgene.2020.00226>
-3. Zukher, I., Pavlov, M., Tsibulskaya, D., Kulikovsky, A., Zyubko, T.,**Bikmetov, D.,**… Severinov, K. (2019). Reiterative Synthesis by the Ribosome and Recognition of the N-Terminal Formyl Group  by Biosynthetic Machinery Contribute to Evolutionary Conservation of the Length of Antibiotic Microcin C Peptide Precursor. *MBio, 10(2).* <https://doi.org/10.1128/mBio.00768-19>
-4. Smirnova, V. V, Shestakova, E. D.,**Bikmetov, D. V,**Chugunova, A. A., Osterman, I. A., Serebryakova, M. V, … Terenin, I. M. (2019). eIF4G2 balances its own mRNA translation via a PCBP2-based feedback loop. *RNA (New York, N.Y.), 25(7), 757–767.* <https://doi.org/10.1261/rna.065623.118>
+1. **Bikmetov D.,**Hall A.M.J., Livenskyi A., Gollan B., Ovchinnikov S., Gilep K., … Dubiley S. (2022) "GNAT toxins evolve toward narrow tRNA target specificities" *Nucleic Acids Research 50(10), 5807-5817.* <https://doi.org/10.1093/nar/gkac356>
+2. Grigoreva A., Andreeva J., **Bikmetov D.,**Rusanova A., Serebryakova M., Hernandez Garcia A., … Dubiley S. (2021) "Identification and characterization of andalusicin: N-terminally dimethylated class III lantibiotic from Bacillus thuringiensis sv. andalousiensis" *iScience, 24(5), 102480.* <https://doi.org/10.1016/j.isci.2021.102480>.
+3. Ovchinnikov S.V.,**Bikmetov D.,**Livenskyi A., Serebryakova M., Wilcox B., Mangano K., … Dubiley S. (2020) "Mechanism of translation inhibition by type II GNAT toxin AtaT2" *Nucleic Acids Research, 48(15), 8617–8625.* <https://doi.org/10.1093/nar/gkaa551>
+4. Travin D.Y.,**Bikmetov D.,**& Severinov K. (2020) "Translation-targeting RiPPs and where to find them" *Frontiers in Genetics, 11, 226.* <https://doi.org/10.3389/fgene.2020.00226>
+5. Zukher I., Pavlov M., Tsibulskaya D., Kulikovsky A., Zyubko T.,**Bikmetov D.,**… Severinov K. (2019) "Reiterative synthesis by the ribosome and recognition of the N-terminal formyl group  by biosynthetic machinery contribute to evolutionary conservation of the length of antibiotic microcin C peptide precursor" *MBio, 10(2).* <https://doi.org/10.1128/mBio.00768-19>
+6. Smirnova V.V., Shestakova E.D.,**Bikmetov D.V.,**Chugunova A.A., Osterman I.A., Serebryakova M.V, … Terenin I.M. (2019) "eIF4G2 balances its own mRNA translation via a PCBP2-based feedback loop" *RNA (New York, N.Y.), 25(7), 757–767.* <https://doi.org/10.1261/rna.065623.118>
 
-## CONFERENCES
+## TEACHING & SUPERVISION
 
-### April, 2015
-XII Student Conference, Faculty of Bioengineering and Bioinformatics,
-Lomonosov Moscow State University, Moscow, Russia
+### POSITION
 
-**Poster presentation:**"mTOR inhibitor Torin2 affects p73 level and cell growth"
+Bachelor's thesis supervision
 
-### April, 2014
-XI Student Conference, Faculty of Bioengineering and Bioinformatics,
-Lomonosov Moscow State University, Moscow, Russia
+2022 - 2023
 
-**Poster presentation:**"Redox reactions coupled to diffusion of SkQ hydrophobic cations across lipid membrane"
+### DESCRIPTION
 
-## AWARDS
+Zakirova Marfa
 
-### 2019
+Moscow Institute of Physics and Technology, Moscow, Russia
 
-Russian National Student Olympiad «I am a professional» awardee
+"Linear phosphorylated peptides - a new class of bacterial natural products"
 
-### 2016
+### POSITION
 
-Travel grant for the summer school at the Osnabrueck University, Germany.
-Granted by the Faculty of Bioengineering and Bioinformatics for top 4 fourth year students
+Summer school
 
-### 2009, 2010, 2011
+August, 2018
 
-Russian National School Olympiad in Biology 4th (final) round winner
-
-## TECHNICAL SKILLS
-
-### Programming
-
-Python (including SciPy, NumPy and Pandas), R, Bash
-
-### Miscellaneous computer skills
-
-Linux, Git, Docker, Conda, Jupyter Notebook, HTML & CSS
-
-### Data analysis
-
-Inferencial and descriptives statistics, cluster analysis, compositional data analysis
-
-### NGS data analysis
-
-Analysis of RNA-Seq and ribosome profiling (Ribo-Seq) data
-
-### Bioinformatics
-
-Basic bioinformatic skills (alignment, databases, profile hmms, etc.), comparative genomics, biosynthetic gene clusters prediction and annotation, phylogenetic analysis
-
-### Molecular biology techniques
-
-Molecular cloning, protein extraction and purification, Western blotting,*in vitro*transcription, cell-free translation, maintaining mammalian cell lines
-
-## LANGUAGES
-
-* Russian (native speaker)
-* English (fluent)
-
-## SUMMER SCHOOLS
-
-### July, 2016
-Summer school "Biomembranes & Cellular Microcompartments",
-
-Osnabrueck University, Germany
-
-## TEACHING
-
-### August, 2018
+### DESCRIPTION
 
 Summer School on molecular biology for bachelor students,
 
 Skolkovo Institute of Science and Technology, Moscow, Russia
 
-A Lecture and a seminar on bioinformatic methods of antibiotic discovery
+Lectures and a workshop on bioinformatic methods of antibiotic discovery
 
-### 2017 - 2018
+### POSITION
 
-Extra classes on advanced biology for high school students
+High school
+
+2017 - 2018
+
+### DESCRIPTION
+
+Extra classes on advanced biology
 
 ## REFERENCES
 

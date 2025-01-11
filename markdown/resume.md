@@ -22,11 +22,11 @@ Dmitry Bikmetov
 
 ### Bioinformatics
 
-General bioinformatics (alignments, databases, profile hmms …), comparative genomics, biosynthetic gene clusters prediction and annotation, phylogenetic analysis
+General bioinformatics (alignments, databases, hmms …), comparative genomics, biosynthetic gene clusters prediction and annotation, phylogenetic analysis
 
 ### NGS data analysis
 
-Analysis of RNA-Seq and ribosome profiling (Ribo-Seq) data
+RNA-Seq, Ribo-Seq (ribosome profiling), 16S
 
 ### Data analysis
 
@@ -34,15 +34,15 @@ Exploratory data analysis, hypothesis testing, regression analysis, network anal
 
 ### Programming
 
-Python (including SciPy, NumPy and Pandas), R, Bash
+Python (including NumPy, SciPy, Pandas, Matplotlib), R, Bash
 
 ### Misc. computer skills
 
-Linux, Git, Docker, Conda, Jupyter Notebook, HTML+CSS
+Linux, Git, Docker, Conda, Jupyter
 
 ### Molecular biology techniques
 
-Molecular cloning, protein extraction and purification, Western blotting,*in vitro*transcription and translation, mammalian cell lines
+Molecular cloning, protein extraction and purification, Western blotting,*in vitro*transcription/translation, mammalian cell lines
 
 # RIGHT
 
@@ -97,7 +97,7 @@ Lomonosov Moscow State University, Moscow, Russia
 
 "Identification and characterization of andalusicin: N-terminally dimethylated class III lantibiotic from Bacillus thuringiensis sv. andalousiensis"
 
-*iScience* <https://doi.org/10.1016/j.isci.2021.102480>.
+*iScience* <https://doi.org/10.1016/j.isci.2021.102480>
 
 **3.** Travin D.Y.,**Bikmetov D.,**& Severinov K. (2020)
 

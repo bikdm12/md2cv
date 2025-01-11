@@ -5,12 +5,14 @@ import shutil
 import codecs
 import markdown2
 from bs4 import BeautifulSoup, Tag
+from weasyprint import HTML
 
 parser = argparse.ArgumentParser(description="A tool to convert markdown cv to html")
 
 parser.add_argument('markdown', type=str, help='Path to the markdown file')
 parser.add_argument('template', type=str, help='Name of a template without extension. Templates are stored in the templates/ directory')
-parser.add_argument('-o', '--output', type=str, default="output/", help='Output folder. Default: ./output/')
+parser.add_argument('-h', '--html', type=str, default="output/", help='HTML output folder. Default: ./output/')
+parser.add_argument('-p', '--pdf', type=str, default="output/", help='PDF output folder. Default: ./output/')
 args = parser.parse_args()
 
 class SectionSoup(BeautifulSoup):
@@ -94,13 +96,21 @@ if name_div:
     meta_description = template.find(attrs ={'name' : 'description'})
     meta_description['content'] = name + meta_description['content']
 
-if not os.path.isdir(args.output):
-    os.mkdir(args.output)
+if not os.path.isdir(args.html):
+    os.mkdir(args.html)
 
-output_html = os.path.join(args.output, '{}.html'.format(args.template))
-output_css = os.path.join(args.output, '{}.css'.format(args.template))
+output_html = os.path.splitext(os.path.basename(args.markdown))[0]
+output_html = os.path.join(args.html, '{}.html'.format(output_html))
+output_css = os.path.join(args.html, '{}.css'.format(args.template))
 
 with codecs.open(output_html, 'w', 'utf-8-sig') as outf:
     outf.write(template.prettify())
 
 shutil.copy('templates/{}.css'.format(args.template), output_css)
+
+if not os.path.isdir(args.pdf):
+    os.mkdir(args.pdf)
+
+output_pdf = os.path.splitext(os.path.basename(args.markdown))[0]
+output_pdf = os.path.join(args.pdf, '{}.pdf'.format(output_pdf))
+HTML(output_html).write_pdf(pdf_file)
